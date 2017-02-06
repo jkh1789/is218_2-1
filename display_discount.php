@@ -1,8 +1,8 @@
 <?php
     // get the data from the form
-    $product_description = $_POST['product_description'];
-    $list_price = $_POST['list_price'];
-    $discount_percent = $_POST['discount_percent'];
+    $product_description = $_POST['Car'];
+    $list_price = $_POST['$50000'];
+    $discount_percent = $_POST['20%'];
     
     // calculate the discount
     $discount = $list_price * $discount_percent * .01;
